@@ -32,8 +32,8 @@ This project combines AWS Bedrock's powerful image generation capabilities with 
 ### Installation
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone [<repository-url>](https://github.com/mohamednizzad/image-engeering-with-amazon-nova-canvas.git)
+cd image-engeering-with-amazon-nova-canvas
 ```
 
 2. Install dependencies:

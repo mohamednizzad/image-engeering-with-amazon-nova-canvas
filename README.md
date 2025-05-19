@@ -1,8 +1,12 @@
-# Amazon Nova Canvas: AI-Powered Image Generation with AWS Bedrock
+# Image Engineering with Amazon Nova Canvas
+## AI-Powered Image Generation with AWS Bedrock
 
 A Python-based image generation application that leverages AWS Bedrock's Nova Canvas model to create, manipulate, and customize images through an intuitive Streamlit interface. The application provides advanced image generation capabilities including text-to-image, color-guided generation, and image-guided generation with real-time preview and customization options.
 
 This project combines AWS Bedrock's powerful image generation capabilities with a user-friendly web interface, allowing users to generate high-quality images with precise control over parameters such as quality, dimensions, and style. The application supports multiple generation modes, extensive customization options, and provides a seamless experience for both simple text-to-image generation and more complex guided image creation tasks.
+
+## Amazon Nova Canvas Project Demo
+https://github.com/user-attachments/assets/0055b405-6937-42b8-abb1-dc0e6f45fb05
 
 ## Repository Structure
 ```
@@ -38,10 +42,8 @@ cd image-engeering-with-amazon-nova-canvas
 
 2. Install dependencies:
 ```bash
-# For core functionality
-pip install -r requirements.txt
 
-# For Streamlit interface
+# For Installing Dependencies
 pip install -r streamlit_requirements.txt
 ```
 
@@ -164,3 +166,7 @@ Key Component Interactions:
 - File system manages output storage and organization
 - Image display component renders generated images
 - Error handling system manages failures at each step
+
+---
+
+Created with ❤️ and Engineered with [AWS Q Developer](https://aws.amazon.com/q/developer/build/) for AI Engineering Month using Amazon Nova Canvas in [AWS Bedrock](https://aws.amazon.com/bedrock/?trk=33b5edcf-0d26-4e1d-b868-603c42c06eaf&sc_channel=ps&ef_id=CjwKCAjwravBBhBjEiwAIr30VCt0Jr1tGaCf_jDwfPOO_Bd9mKUcXTKmQ0tVb5CVgWAXleVBLusC0hoC8sAQAvD_BwE:G:s&s_kwcid=AL!4422!3!692062173500!e!!g!!aws%20bedrock!21054971903!164977109691&gad_campaignid=21054971903&gbraid=0AAAAADjHtp8ytADZ1Gf5qCOD_7F5i0VuH&gclid=CjwKCAjwravBBhBjEiwAIr30VCt0Jr1tGaCf_jDwfPOO_Bd9mKUcXTKmQ0tVb5CVgWAXleVBLusC0hoC8sAQAvD_BwE)

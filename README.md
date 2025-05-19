@@ -52,6 +52,8 @@ pip install -r streamlit_requirements.txt
 aws configure
 ```
 
+![Application Interface](Amazon_Nova_Interface.png)
+
 ### Quick Start
 1. Launch the Streamlit application:
 ```bash
@@ -166,6 +168,10 @@ Key Component Interactions:
 - File system manages output storage and organization
 - Image display component renders generated images
 - Error handling system manages failures at each step
+
+
+## Acknowledgement
+I sincerely acknowledge AWS' official github repo [Amazon Nova model cookbook](https://github.com/aws-samples/amazon-nova-samples/tree/main) for the documentation with working examples. And also the amazon_image_gen.py file within this repository is from the above official repo.
 
 ---
 
